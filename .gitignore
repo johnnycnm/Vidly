@@ -259,3 +259,9 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/Vidly/Migrations/201801161803385_PopulateMembershipTypes2.cs
+/Vidly/Migrations/201801161803385_PopulateMembershipTypes2.Designer.cs
+/Vidly/Migrations/201801161803385_PopulateMembershipTypes2.resx
+/Vidly/Migrations/201801161804306_UpdateMembershipTypeNames2.cs
+/Vidly/Migrations/201801161804306_UpdateMembershipTypeNames2.Designer.cs
+/Vidly/Migrations/201801161804306_UpdateMembershipTypeNames2.resx

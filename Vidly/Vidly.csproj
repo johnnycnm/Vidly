@@ -211,6 +211,7 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Dtos\CustomerDto.cs" />
+    <Compile Include="Dtos\GenreDto.cs" />
     <Compile Include="Dtos\MembershipTypeDto.cs" />
     <Compile Include="Dtos\MovieDto.cs" />
     <Compile Include="Global.asax.cs">
@@ -287,6 +288,14 @@
     <Compile Include="Migrations\201712311901099_AddRequiredMovieFields.cs" />
     <Compile Include="Migrations\201712311901099_AddRequiredMovieFields.Designer.cs">
       <DependentUpon>201712311901099_AddRequiredMovieFields.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801161803385_PopulateMembershipTypes2.cs" />
+    <Compile Include="Migrations\201801161803385_PopulateMembershipTypes2.Designer.cs">
+      <DependentUpon>201801161803385_PopulateMembershipTypes2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801161804306_UpdateMembershipTypeNames2.cs" />
+    <Compile Include="Migrations\201801161804306_UpdateMembershipTypeNames2.Designer.cs">
+      <DependentUpon>201801161804306_UpdateMembershipTypeNames2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -617,6 +626,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201712311901099_AddRequiredMovieFields.resx">
       <DependentUpon>201712311901099_AddRequiredMovieFields.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801161803385_PopulateMembershipTypes2.resx">
+      <DependentUpon>201801161803385_PopulateMembershipTypes2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801161804306_UpdateMembershipTypeNames2.resx">
+      <DependentUpon>201801161804306_UpdateMembershipTypeNames2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
