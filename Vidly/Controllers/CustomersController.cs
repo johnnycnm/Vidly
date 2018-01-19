@@ -5,6 +5,7 @@ using System.Web.Mvc;
 using Vidly.Models;
 using Vidly.ViewModels;
 
+
 namespace Vidly.Controllers
 {
     public class CustomersController : Controller
@@ -72,7 +73,7 @@ namespace Vidly.Controllers
         public ViewResult Index()
         {
             //var customers = _context.Customers.Include(c => c.MembershipType).ToList();
-
+            
             return View();
         }
 
